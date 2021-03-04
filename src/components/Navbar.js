@@ -31,7 +31,7 @@ function NavBar() {
     >
       <Container>
         <Navbar.Brand href="/">
-          <img src={logo} className="img-fluid logo" alt="brand" />
+            <h1>Avni</h1>
         </Navbar.Brand>
         <Navbar.Toggle
           aria-controls="responsive-navbar-nav"
@@ -59,15 +59,7 @@ function NavBar() {
                 <i className="far fa-user"></i> About
               </Nav.Link>
             </Nav.Item>
-            <Nav.Item>
-              <Nav.Link
-                as={Link}
-                to="/project"
-                onClick={() => updateExpanded(false)}
-              >
-                <i className="fab fa-codepen"></i> Projects
-              </Nav.Link>
-            </Nav.Item>
+
             <Nav.Item>
               <Nav.Link
                 as={Link}
@@ -76,17 +68,6 @@ function NavBar() {
               >
                 <i className="far fa-file-alt"></i> Resume
               </Nav.Link>
-            </Nav.Item>
-
-            <Nav.Item className="fork-btn">
-              <Button
-                href="https://github.com/soumyajit4419/Portfolio"
-                target="_blank"
-                className="fork-btn-inner"
-              >
-                <i className="fas fa-code-branch"></i>{" "}
-                <i className="far fa-star"></i>
-              </Button>
             </Nav.Item>
           </Nav>
         </Navbar.Collapse>

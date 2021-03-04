@@ -17,7 +17,9 @@ html {
 .purple {
   color: var(--imp-text-color) !important;
 }
-
+.purples{
+  color: #082163;
+}
 /* --------- */
 /*  Preloader */
 /* --------- */

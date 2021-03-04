@@ -39,30 +39,32 @@ function About() {
           Professional <strong className="purple">Skillset </strong>
         </h1>
         <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-          <Techstack iconName="devicon-cplusplus-line" />
-          <Techstack iconName="devicon-python-plain-wordmark " />
-          <Techstack iconName="cib-pytorch" />
-          <Techstack iconName="cib-tensorflow" />
-          <Techstack iconName="devicon-javascript-plain " />
-          <Techstack iconName="devicon-nodejs-plain-wordmark " />
-          <Techstack iconName="devicon-express-original-wordmark" />
-          <Techstack iconName="devicon-react-original-wordmark" />
-          <Techstack iconName="devicon-mongodb-plain-wordmark" />
-          <Techstack iconName="devicon-git-plain-wordmark" />
-          <Techstack iconName="devicon-bootstrap-plain-wordmark" />
+          <Techstack iconName="devicon-cplusplus-line colored" />
+          <Techstack iconName="devicon-javascript-plain  colored" />
+          <Techstack iconName="devicon-nodejs-plain-wordmark colored " />
+          <Techstack iconName="devicon-express-original-wordmark colored" />
+          <Techstack iconName="devicon-python-plain-wordmark colored" />
+          <Techstack iconName="devicon-c-plain-wordmark" />
+          <Techstack iconName="devicon-react-original-wordmark colored" />
+          <Techstack iconName="devicon-mongodb-plain-wordmark colored" />
+          <Techstack iconName="devicon-git-plain-wordmark colored" />
+          <Techstack iconName="devicon-bootstrap-plain-wordmark colored" />
+          <Techstack iconName="devicon-css3-plain-wordmark colored" />
+          <Techstack iconName="devicon-docker-plain-wordmark colored" />
+          <Techstack iconName="devicon-html5-plain-wordmark colored" />
+          <Techstack iconName="devicon-jupyter-plain-wordmark colored" />
+          <Techstack iconName="devicon-npm-original-wordmark colored" />
+          <Techstack iconName="devicon-sass-original colored" />
         </Row>
         <h1 className="project-heading">
           <strong className="purple">Tools</strong> I use
         </h1>
         <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
-          <Techstack iconName="devicon-linux-plain" />
+          <Techstack iconName="devicon-linux-plain " />
           <Techstack iconName="cib-visual-studio-code" />
-          <Techstack iconName="cib-anaconda" />
           <Techstack iconName="cib-postman" />
-          <Techstack iconName="cib-zeit" />
-          <Techstack iconName="cib-heroku" />
+          <Techstack iconName="cib-netlify" />
         </Row>
-        <Github />
       </Container>
     </Container>
   );
