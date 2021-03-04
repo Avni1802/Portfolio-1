@@ -63,6 +63,11 @@ function Resume() {
               date="2019"
               content={["Precentile: 98.03","Qualified into one of the topmost Engineering colleges of India (SVNIT - Rank 54 (NIRF RANK 2020)"]}
             />
+            <Resumecontent
+              title="UCMAS"
+              date=""
+              content={["Successfully completed Mental Maths Course securing FIRST RUNNER UP position at final Level"]}
+            />
 
           </Col>
         </Row>
