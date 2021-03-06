@@ -72,3 +72,7 @@ You will find all the components used and you can edit your information accordin
 ### Show your support
 
 Give a ⭐ if you like this website!
+
+I just changed the text content from this portfolio repository and built my portfolio.
+Thanks   <a href="http://soumyajit.tech/" target="_blank">soumyajit.tech</a> for this Portfolio UI
+
